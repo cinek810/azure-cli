@@ -7,6 +7,8 @@ Release History
 * (Breaking change): remove `assign-identity` & `remove-identity` which were tagged `deprecating` 2 releases ago
 * `vm create`: support configure Public-IP sku
 
+* vm resize will check if the requested size is different than currently set and update only on change
+
 2.0.29
 ++++++
 * `vmss create`: warn on upcoming breaking changes on default balancer for scaleset with 100+ instances
